@@ -1,0 +1,44 @@
+p, span{
+    border: 1px solid orange;
+}
+
+/* Propiedad display para modificar el comportamiento de los elementos */
+
+.enLinea{
+    display: inline;
+}
+
+.enBloque{
+    display: block;
+}
+
+.enLineaBloque{
+    display: inline-block; /*En linea mientras quepa*/
+}
+
+.caja1{
+    width: 80%;
+    height: 150px;
+    margin: 20px auto;
+    background-color: violet;
+}
+.caja2{
+    width: 80%;
+    height: 150px;
+    margin: 20px auto;
+    background-color: brown;
+}
+.caja3{
+    width: 80%;
+    height: 150px;
+    margin: 20px auto;
+    background-color: blue;
+}
+
+.apagar{
+    display: none;
+}
+
+.ocultar{
+    visibility: hidden;
+}

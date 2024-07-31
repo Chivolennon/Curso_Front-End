@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    /* prefijo de proovedores */
+    /* -webkit- Chrome, safari y todos */
+    /* -moz- mozilla firefox 
+    -o- opera
+    -ms- iexplorer y edge*/
+    background: -webkit-linear-gradient(left, #e54eab 50%, #e00d2c);
+    background: -moz-linear-gradient(left, #e54eab 50%, #e00d2c);
+    background: -o-linear-gradient(left, #e54eab 50%, #e00d2c);
+    background: -ms-linear-gradient(left, #e54eab 50%, #e00d2c);
+}
+
+.hero p {
+    padding-top: 200px ;
+    text-align: center;
+    color: beige;
+    font-size: 100px;
+    font-family: "Anton", sans-serif;
+}

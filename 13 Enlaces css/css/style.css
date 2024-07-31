@@ -1,0 +1,25 @@
+/* Enlaces */
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: orange;
+}
+a:visited{
+    text-decoration: none;
+    font-size: 18px;
+    color: orange;
+}
+a:hover{
+    color: rgb(87, 57, 2);
+}
+
+/*  Utilizar selector por atributos para enlaces externos */
+
+[href^=http]::after
+{
+    content: url(../external-link.svg);
+    position: relative;
+    top: 4px;
+    left: 5px;
+    margin-right: 5px;
+}

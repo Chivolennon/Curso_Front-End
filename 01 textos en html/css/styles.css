@@ -1,0 +1,68 @@
+/* Implementacion de fuente interna */
+@font-face{
+    font-family: "brushed";
+    font-size: normal;
+    font-weight: 400;
+    src: url("../fonts/Mighty\ Brush\ Demo.ttf")
+}
+
+/* Implementación de fuente externa */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+body{
+    /* font-family: Arial, Helvetica, sans-serif; FUENTES SEGURAS */
+    font-family: "Open Sans", sans-serif;
+    color: #616161;
+}
+
+h1
+{
+    font-size: 32px;
+    font-family: "brushed";
+}
+
+p{
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: left;
+
+}
+
+.cita{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 40px;
+    color: crimson;
+}
+
+/* Sombreado de textos */
+.sombreado{
+    text-shadow: 2px -2px 4px darkblue;
+    font-size: 36px;
+}
+
+/* Color de la seleccion */
+*::selection{
+    background-color: blueviolet;
+    color: white;
+}
+
+/* Subrayado de textos */
+.subrayado{
+    /* text-decoration-line: underline;
+    text-decoration-color: crimson;
+    text-decoration-style: wavy; */
+    text-decoration: underline crimson wavy; /* Propiedad de tipo shorthand */
+}
+
+/* Propiedades de capitalizacion */
+.mayus{
+    text-transform: uppercase;
+}
+.minus{
+    text-transform: lowercase;
+}
+.capit{
+    text-transform: capitalize;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caja-1{
+    width: 400px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+}
+
+.caja-2{
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    /* margin: 40px;  Todos los margenes */
+    /* margin: 40px 20px; Arriba y abajo | Derecha e izquierda*/
+    /* margin: 20px 40px 20px; Arriba  | Derecha e izquierad | Abajo */
+    margin: 20px 30px 20px 40px; /*Arriba | Derecha | Abajo | Izquierda*/ 
+}
+
+.aviso{
+    font-size: 32px;
+    color: brown;
+    border: 1px solid salmon;
+    padding: 20px 40px;
+}

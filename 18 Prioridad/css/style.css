@@ -1,0 +1,41 @@
+/* Por la forma de implementación la prioridad es:
+1.- Estilos en línea con el atributo style
+2.- Estilos en el elemento style
+3.- Archivos externos*/
+
+/* p{
+    color: grey;
+} */
+
+/* Especificidad según combinación de selectores
+1.- Número de selectores por id#
+2.- Número de selectores por clase . o pseudoclase:
+3.- Número de elementos (nombre) o pseudoelementos::*/
+
+p{
+    color: grey; /*001*/
+}
+
+.texto{
+    color: orange; /*010*/
+}
+
+/* Otro ejemplo */
+
+li{
+    color: red;
+}
+
+p~ li{
+    color: blue;
+}
+
+ul .destacado{
+    color: green;   
+}
+
+/* Operador important (Mala practica)*/
+
+/* li{
+    color: pink !important;
+} */

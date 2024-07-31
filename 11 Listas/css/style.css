@@ -1,0 +1,41 @@
+ul{
+    list-style: none;
+    list-style-position: inside;
+}
+
+li{
+    font-size: 28px;
+}
+
+/* Pseudoelemento before (Renderizar un contenido antes del elemento) */
+
+li::before{
+    content: "🐱‍👤";
+    position: relative;
+    right: 10px;
+    font-size: 30px;
+    color: aquamarine;
+}
+
+/* Pseudoelemento para elementos repetitivos */
+
+li:first-child{
+    color: violet;
+}
+
+li:last-child{
+    color: red;
+}
+
+li:nth-child(2){
+    color: aqua;
+}
+
+li:nth-child(odd){ /* Para impares*/
+    color:blue;
+}
+
+li:nth-child(even){
+    color: violet;  /* Para pares */
+}
+

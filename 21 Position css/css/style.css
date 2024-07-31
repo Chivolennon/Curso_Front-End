@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* Position relative (a donde deberia estar el elemento) */
+
+.caja1{
+    background-color: green;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.caja2{
+    background-color: blueviolet;
+    width: 150px;
+    height: 80px;
+    position: relative;
+    top: -10px;
+    left: -20px;
+}
+
+/* Position fixed (fijo al dispositivo) */
+
+.caja3{
+    width: 200px;
+    height: 50px;
+    background-color: chocolate;
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+}
+
+/* Position absolute (fijo pero la referencia al contenedor padre)*/
+
+.caja4 {
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+.caja5{
+    width: 60px;
+    height: 60px;
+    background-color: crimson;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+/* Position sticky (Mantiene su posicion hasta que llegue a los valores que le proporcionemos) */
+
+h1{
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+.tituloSticky{
+    background-color: tomato;
+    color: violet;
+    padding: 20px 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.tituloSticky2{
+    background-color: green;
+    color: red;
+    padding: 20px 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
